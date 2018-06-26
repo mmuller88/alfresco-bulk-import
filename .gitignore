@@ -9,6 +9,8 @@
 **/.project
 **/.settings/
 **/target/
+**/overlays/
+**.log
 
 test/data/SinglePassTests/FileFolderVolumeTests/sub1/
 test/data/SinglePassTests/FileFolderVolumeTests/sub2/

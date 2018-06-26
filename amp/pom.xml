@@ -9,7 +9,7 @@
   <name>Bulk Import Tool - AMP</name>
   <description>Bulk Import Tool AMP project.</description>
 
-    <parent>
+  <parent>
     <groupId>org.alfresco.extension</groupId>
     <artifactId>alfresco-bulk-import-parent</artifactId>
     <version>2.1.1-SNAPSHOT</version>
