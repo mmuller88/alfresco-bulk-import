@@ -109,7 +109,7 @@ public final class BatchImporterImpl
     @Override
     public final void importBatch(final String  userId,
                                   final NodeRef target,
-                                  final Batch   batch,
+                                  final BatchKotlin   batch,
                                   final boolean replaceExisting,
                                   final boolean dryRun)
         throws InterruptedException,
@@ -141,7 +141,7 @@ public final class BatchImporterImpl
 
     
     private final void importBatchInTxn(final NodeRef target,
-                                        final Batch   batch,
+                                        final BatchKotlin   batch,
                                         final boolean replaceExisting,
                                         final boolean dryRun)
         throws InterruptedException,
@@ -170,7 +170,7 @@ public final class BatchImporterImpl
     
     
     private final void importBatchImpl(final NodeRef target,
-                                       final Batch   batch,
+                                       final BatchKotlin   batch,
                                        final boolean replaceExisting,
                                        final boolean dryRun)
         throws InterruptedException

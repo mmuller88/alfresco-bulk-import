@@ -44,7 +44,7 @@ public interface BatchImporter
      */
     public void importBatch(String  userId,
                             NodeRef target,
-                            Batch   batch,
+                            BatchKotlin   batch,
                             boolean replaceExisting,
                             boolean dryRun)
         throws InterruptedException;

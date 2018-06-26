@@ -289,7 +289,7 @@ public class BulkImportStatusImpl
     @Override public void setCurrentlyImporting(String name) { this.currentlyImporting = name; }
     
     @Override
-    public void batchCompleted(final BatchKt batch)
+    public void batchCompleted(final BatchKotlin batch)
     {
         incrementTargetCounter(TARGET_COUNTER_BATCHES_COMPLETE);
         incrementTargetCounter(TARGET_COUNTER_NODES_IMPORTED,               batch.size());

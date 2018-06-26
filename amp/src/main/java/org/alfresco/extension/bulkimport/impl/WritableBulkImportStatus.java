@@ -48,7 +48,7 @@ public interface WritableBulkImportStatus
     void unexpectedError(Throwable t);
 
     void setCurrentlyImporting(String name);
-    void batchCompleted(Batch batch);
+    void batchCompleted(BatchKotlin batch);
     
     void preregisterTargetCounters(String[] counterNames);
     void incrementTargetCounter(String counterName);
