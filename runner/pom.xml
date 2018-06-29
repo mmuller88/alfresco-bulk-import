@@ -2,16 +2,12 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
+    <groupId>org.alfresco.extension</groupId>
     <artifactId>bulk-import-runner</artifactId>
+    <version>2.1.1-SNAPSHOT</version>
     <name>Bulk Import Runner</name>
     <packaging>war</packaging>
     <description>Run ACS6 repository with Bulk Import Amp deployed</description>
-
-    <parent>
-        <groupId>org.alfresco.extension</groupId>
-        <artifactId>alfresco-bulk-import-parent</artifactId>
-        <version>2.1.1-SNAPSHOT</version>
-    </parent>
 
     <properties>
         <!-- community -->
@@ -62,6 +58,12 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${dependency.postgresql.version}</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-asl -->
+        <dependency>
+            <groupId>org.codehaus.jackson</groupId>
+            <artifactId>jackson-mapper-asl</artifactId>
+            <version>1.9.13</version>
         </dependency>
     </dependencies>
 

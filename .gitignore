@@ -10,7 +10,7 @@
 **/.settings/
 **/target/
 **/overlays/
-**.log
+**/*.log*
 
 test/data/SinglePassTests/FileFolderVolumeTests/sub1/
 test/data/SinglePassTests/FileFolderVolumeTests/sub2/
